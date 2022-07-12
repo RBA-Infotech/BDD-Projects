@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.482">
+    <testcase classname="Feature to test place order functionality in Flipkart" name="Validate the place order E2E functionality" time="13.275">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username and password and click on login button............passed
+Then user search for laptop.................................................passed
+Then user select the first laptop...........................................passed
+Then user clicks on add to cart button......................................passed
+And user clicks logout button...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

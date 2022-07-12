@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-10T16:20:37.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8848695600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the place order E2E functionality",
+        "description": "",
+        "id": "feature-to-test-place-order-functionality-in-flipkart;validate-the-place-order-e2e-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 307100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.teadDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4363318100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password and click on login button",
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.user_enters_username_and_password_and_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search for laptop",
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.user_search_for_laptop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select the first laptop",
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.user_select_the_first_laptop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on add to cart button",
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks logout button",
+            "match": {
+              "location": "StepDefinitions1.PlaceOrder.user_clicks_logout_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test place order functionality in Flipkart",
+    "description": "",
+    "id": "feature-to-test-place-order-functionality-in-flipkart",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/placeorder.feature",
+    "tags": []
+  }
+]
